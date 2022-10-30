@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Four in a row game</title>
+  <link rel="stylesheet" href="css/four.css">
+</head>
+<body>
+    <h1 class="title">Four In a Row AI</h1>
+    <div class ="background">
+        <div class = "floor"></div>
+        <div class = "wall-left"></div>
+        <div class = "wall-right"></div>
+        <div class = "ceiling"></div>
+        <table class="board">
+            <tr id="Score"></tr>
+            <tr>
+                <td>
+                    <canvas id="connect4" width="448" height="384"></canvas>
+                    <script src="js/four.js"></script>
+                    <noscript>You need to enable JavaScript to view the full site.</noscript>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="controller">
+                        <tr>
+                            <th><button onclick="doTurn(0)"></button></th>
+                            <th><button onclick="doTurn(1)"></button></th>
+                            <th><button onclick="doTurn(2)"></button></th>
+                            <th><button onclick="doTurn(3)"></button></th>
+                            <th><button onclick="doTurn(4)"></button></th>
+                            <th><button onclick="doTurn(5)"></button></th>
+                            <th><button onclick="doTurn(6)"></button></th>
+                        </tr>
+                    </table> 
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
