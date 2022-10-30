@@ -1,6 +1,3 @@
-/**
-* using tutorial by Raddy on youtube
-*/
 
 // Imports
 const express = require('express')
